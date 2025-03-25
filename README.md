@@ -29,17 +29,14 @@ A multi-functional Discord bot featuring counting, YouTube video retrieval, joke
 Install dependencies:
 
 bash
-Copy
 pip install -r requirements.txt
 Create required JSON files:
 
 bash
-Copy
 touch channel_messages.json ddoi_videos.json last_post.json pewdiepie_videos.json youtube_cache.json
 Create .env file:
 
 ini
-Copy
 TOKEN=your_discord_bot_token
 CHANNEL_ID=your_counting_channel_id
 YOUTUBE_API_KEY=your_youtube_api_key
@@ -48,7 +45,6 @@ Required JSON Files
 Initialize empty JSON files:
 
 bash
-Copy
 echo "{}" > channel_messages.json
 echo "[]" > ddoi_videos.json
 echo "[]" > pewdiepie_videos.json
@@ -63,12 +59,10 @@ Invite bot to your server with proper permissions
 
 Running the Bot
 bash
-Copy
 python bot.py
 For 24/7 operation (Linux):
 
 bash
-Copy
 nohup python bot.py > bot.log 2>&1 &
 Command Reference
 Command	Description
