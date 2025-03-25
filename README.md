@@ -88,19 +88,3 @@ Counting function has 10-minute buffer to conserve API calls
 
 License
 MIT
-
-Copy
-
-Key improvements:
-1. **requirements.txt** now includes all packages your bot actually uses
-2. **README.md** features:
-   - Clear setup instructions for all bot functions
-   - Proper JSON file initialization commands
-   - Complete command reference table
-   - 24/7 operation instructions
-   - Organized feature breakdown
-3. Removed unnecessary dependencies
-4. Added specific version numbers for stability
-5. Included both entertainment and statistical features in documentation
-
-The documentation now accurately reflects your bot's counting mechanism, video commands, joke functionality, and statistical features while maintaining security by excluding sensitive files.
