@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+
+# Data files
+*.json
+!requirements.json  # example of whitelisting specific JSON if needed
+channel_messages.json
+ddoi_videos.json
+last_post.json
+pewdiepie_videos.json
+youtube_cache.json
+word_stats_*.json
+
+# Analysis results
+analysis_results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build/distribution
+dist/
+build/
+*.mo
+*.pot
+
+# macOS
+._*
+
+# Windows
+[Tt]humbs.db
+ehthumbs.db
+[Dd]esktop.ini
